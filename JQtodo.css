@@ -1,0 +1,62 @@
+body {
+	background: rgba(0,102,153,0.5);
+}
+
+h1 {
+	background: #2980b9;
+	color: white;
+	margin: 0;
+	padding: 10px 20px;
+	font-family: 'Patua One', cursive;
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: normal;
+}
+
+#pencil {
+	float: right;
+}
+
+/*get rid of bullet point before every li*/
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	background: white;
+	height: 40px;
+	font-size: 18px;
+	line-height: 40px;
+	color: #666;
+}
+li:nth-child(2n){   /*make every other li grey shade*/
+	background: #f7f7f7;
+}
+
+input { 
+	font-size: 16px;
+	color: #2980b9;
+	background: #f7f7f7;
+	width: 100%;
+	padding: 7px 5px 7px 5px; /*t r b l*/
+	box-sizing: border-box;
+}
+input:focus{
+	background: white;
+	border: 2px solid #2980b9;
+	outline:none;
+}
+
+#container {
+	width: 360px;
+	margin: 100px auto; /*top buttom 100;left right auto*/
+	background: #f7f7f7;
+	box-shadow: 0 0 3px rgba(0,0,0,0.5);
+}
+
+.completed{
+	color: grey;
+	text-decoration: line-through;
+}
