@@ -23,3 +23,14 @@ $("input[type='text']").keypress(function(e2){
 $("#pencil").click(function(){
 	$("input[type='text']").fadeToggle();
 })
+
+var trash=document.querySelectorAll('#trash');
+for(i=0;i<trash.length;i++){
+	trash[i].addEventListener("mouseover",function(){
+		this.classList.add("selected");
+	});
+
+	trash[i].addEventListener("mouseout",function(){
+		this.classList.remove("selected");
+	})
+}

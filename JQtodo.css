@@ -60,3 +60,7 @@ input:focus{
 	color: grey;
 	text-decoration: line-through;
 }
+
+.selected{
+	color: red;
+}
